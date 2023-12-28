@@ -6,10 +6,15 @@
 }
 
 body{
-    background-color: rgb(76, 29, 11);
+    background: rgb(77,177,13);
+    background: linear-gradient(180deg, rgba(77,177,13,1) 0%, rgba(44,108,79,1) 43%, rgba(14,46,138,1) 100%);
     display: flex;
     justify-content: center;
     
+}
+.page2{
+    background: rgb(255,157,64);
+    background: linear-gradient(180deg, rgba(255,157,64,1) 0%, rgba(252,238,166,1) 100%);
 }
 
 .container{
@@ -40,7 +45,7 @@ header{
     justify-content: center;
 }
 .md-title{
-    background-color: rgb(228, 228, 122);
+    background-color: rgb(250, 234, 147);
     flex: 5;
     display: flex;
     justify-content: center;
@@ -48,14 +53,16 @@ header{
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
+    color: red;
 }
 .md-title h1{
     font-size: 35px;
     font-weight: 800;
+    font-weight: 800;
 }
 section{
     width: 100%;
-    background-color:  rgb(228, 228, 122);
+    background-color:  rgb(249, 249, 238);
     margin-top: 10px;
     border-radius: 10px;
     padding: 20px 10px ;
@@ -138,6 +145,7 @@ button:hover{
         flex: 3;
         margin-left: 3px;
         margin-right: 3px;
+        padding: 5px 1px;
  
     }
     .md-title h1{
@@ -146,6 +154,5 @@ button:hover{
     }
     section{
         width: 100%;
-        padding: 10px 5px ;
     }
   }
